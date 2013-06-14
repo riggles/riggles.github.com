@@ -1,0 +1,177 @@
+---
+---
+
+{% include bootstrap-reset.min.css %}
+
+/* GLOBAL */
+
+body {
+	color: #333;
+	font-family: open-sans;
+/*	font-size: 100%;*/
+	font-weight: 300;
+	line-height: 150%;
+	text-rendering: optimizeLegibility;
+	margin: 30px 30px 0 30px;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px dotted #c36;
+}
+
+a:hover {
+	color: #c36;
+}
+
+h1, h2, h3 {
+	font-family: open-sans;
+	line-height: 110%;
+	font-weight: 700;
+	margin: 0 0 .3em 0;
+	-webkit-column-break-inside: avoid;
+}
+	h1 a, h2 a, h3 a {
+		border-bottom: 0;
+	}
+
+h1 {
+	position: absolute;
+/*	font-size: 150%;*/
+	text-transform: uppercase;
+}
+
+h2 {
+/*	font-size: 200%;*/
+}
+
+h3 {
+/*	font-size: 150%;*/
+}
+
+p {
+	text-align: justify;
+	word-break: normal;
+	-webkit-hyphens: auto;
+}
+
+blockquote {
+	margin: 0;
+	padding: 0 1.5em;
+	border-left: 3px solid #c36;
+/*	background-color: #eee;*/
+	font-style: italic;
+	color: #666;
+}
+
+blockquote > blockquote {
+	border: 0;
+	padding-bottom: 0;
+}
+
+time {
+	font-size: 80%;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ccc;
+}
+
+article {
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 2em;
+}
+
+header {
+	height: 5%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	height: 5%;
+	font-size: 80%;
+	color: #aaa;
+}
+
+strong {
+	font-weight: 700;
+}
+
+/* ELEMENTS */
+
+#container {
+	height: 100%;
+	overflow: auto;
+	clear: both;
+	white-space: nowrap;
+}
+
+#posts {
+	height: 89%;
+	display: inline-block;
+	-webkit-column-width: 350px;
+	-webkit-column-gap: 30px;
+	white-space: normal;
+	vertical-align: top;
+}
+
+#post-pagination {
+/*	height: 100%;
+	-webkit-column-break-before: always;
+	background-color: gray;*/
+}
+
+#copyright {
+	font-size: 80%;
+	color: #aaa;
+}
+
+/* CLASSES */
+
+.article img {
+	padding-bottom: 1.5em;
+}
+
+.chat table {
+	padding-bottom: 1em;
+}
+
+.chat table td:first-child {
+	font-weight: 600;
+	padding-right: 1em;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.quote {
+	-webkit-column-break-inside: avoid;
+	margin-top: -2em;
+	padding: 1.5em 1.5em 0 1.5em;
+	background-color: #efefef;
+}
+
+	.author {
+		text-align: right;
+	}
+	
+.accent {
+	color: #c36;
+}
+
+.permalink {
+	padding: 0 1em;
+}
+
+	.permalink a {
+		border: 0;
+/*		color: #c36;*/
+	}
+
+.capslock {
+	text-transform: uppercase;
+}
+
+.disabled {
+	display: hidden;
+}

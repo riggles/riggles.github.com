@@ -1,0 +1,10 @@
+{% include header.html %}
+
+	<div id="posts">
+		<h2><a href="{{ page.source }}">{{ page.title }}</a></h2>
+		<time>{{ page.date | date: "%B %d, %Y" }}</time>
+	
+		{{ content }}
+	</div>
+		
+{% include footer.html %}

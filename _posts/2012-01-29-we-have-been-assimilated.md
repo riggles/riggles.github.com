@@ -1,0 +1,24 @@
+---
+title: We have been assimilated
+layout: article
+---
+
+Carina Chocano [writes an article][1] in the *New York Times Magazine* about data loss and our cyborg-like lifestyle. She considers whether we become less human the more our memories and consciousness move to the web (I would use *cloud*, but I'm already tired of that word and they're basically the same thing). It's a tricky thing defining what makes one more or less human, but if she is asking whether it makes us *feel* less human, that's easy for me to answer. Yes.
+
+This isn't a new discussion by any means. From TED talks to forum threads, it's been considered. I've only really thought about by-products of this notion, mostly analog vs. digital comparisons, though. The broader theme that, as we relinquish control of the pieces that make up our lives in an effort to stay more 'connected', we become less connected — less human — was worth a few minutes of reflection for me.
+
+When I used to think about why I missed photographing with film and buying CDs, I would attribute most of that to nostalgia. But, upon further consideration, nostalgia isn't the right word. It gives the wrong connotation. I'm not looking at the past with rose-colored glasses. I'm fully aware of the price I paid for CDs, for film, for processing, for prints, and for the gas to drive to these stores[1][cost-of-film]. Still, I miss the *connection* I had to photography and music. Every additional sense involved makes a deeper connection. I still love both but, honestly, it's not the same now. Leafing through a family photo album is more cumbersome than scrubbing through a Facebook timeline, but it's also more meaningful.
+
+That same principle applies to the other aspects of our lives. Notes, journals, recipes, phone numbers, tickets, collections, … memories — we're generating more of these now than ever, but what connection do we have to them? Recalling the phone number of the house I grew up in brings a warm feeling and smile to my face. What are the phone numbers of any of my immediate family or closest friends? I have no idea. I'd have to look it up on my phone. That makes me feel a little sad, a little less human. They're just numbers, but they have meaning.
+
+Meaning seems to be in shorter supply these days. You wouldn't think so listening to the companies who offer an array of personal and social services. But I'm talking about *real* meaning, not database connections that imply friendship or icons that denote your likes. Someone may have 2,000 'friends', but how many have they shared a meal with, or hung out with, or even talked with face-to-face? These are real, deep, meaningful connections. Simulated meaningful connections are being developed by scientists, mathematicians, and programmers and deployed by corporations to the masses. Another piece of our life moves from the personal to the collective.
+
+Not that collective information doesn't have its pros. Besides being incredibly efficient, the ability to look up the answer to virtually any question on my phone is something I enjoy. I wonder what that's doing for my brain, though. Things that I would have committed to memory purposefully or through use are now more easy to just forget and look up when needed. “I have a terrible memory” is a common statement among peers. Perhaps it's because we're not exercising it in ways we once did.
+
+In the end, I've identified a few things I can do take back some of my humanness. I'll buy vinyl albums or CDs when I can afford to. This will make the RIAA happy, which I try not to do, but I can't help that. I think it'll help me appreciate my music more. Instead of always sending a text or email, I can give a physical note or letter — remember writing your thoughts on paper? Like many digital photographers, I spend as much time reviewing what I've shot on my cameras LCD screen as I do shooting — an issue film shooters don't suffer from. Since I'm too invested in a digital workflow now, I can't switch back completely to film. But I can pretend that I don't have a screen and just shoot. It'll improve my skills, reduce the number of discardable images I need to sift though and store, and allow me more time to look around the scene I'm in (a real connection).
+
+These aren't major changes, I'm trying to be balanced. But I think these little things will help me feel more human, less assimilated.
+
+[cost-of-film]:There is another argument to be made about how much money the digital vs. analog gear actually saves us. I sense a future post coming.
+
+[1]:http://www.nytimes.com/2012/01/29/magazine/what-happens-when-data-disappears.html
