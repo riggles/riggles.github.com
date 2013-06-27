@@ -1,10 +1,10 @@
 {% include header.html %}
 
-	<div id="posts">
-		<h2>{{ page.title }}</h2>
-		<time>{{ page.date | date: "%B %d, %Y" }}</time>
-	
+	<article class="chat">
+		<div class="title">
+			<h3>{{ page.title }}</h3>
+		</div>
 		{{ content }}
-	</div>
+	</article>
 		
 {% include footer.html %}

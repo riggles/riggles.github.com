@@ -7,15 +7,41 @@ title: Riggl.es
 	{% for post in paginator.posts %}
 		{% if post.layout == 'link' %}
 		<article class="link">
-			<h2><a href="{{ post.source }}">{{ post.title }}</a></h2>
-			<time>{{ post.date | date: "%B %d, %Y" }}</time><span class="permalink"><a href="{{ post.url }}">∞</a></span>
-			{{ post.content }}
+			<header class="link-title">
+<!--				<span class="link-icon">&#8599;</span>-->
+				<h2>
+					<a href="{{ post.source }}">{{ post.title }}</a>
+				</h2>
+				<time>{{ post.date | date: "%B %d, %Y" }}</time>
+				<span class="permalink"><a href="{{ post.url }}">∞</a></span>
+			</header>
+<!--			<header class="link-title">
+				<h2><a href="{{ post.source }}">{{ post.title }}</a></h2>
+				<time>{{ post.date | date: "%B %d, %Y" }}</time>
+				<span class="permalink"><a href="{{ post.url }}">∞</a></span>
+			</header>-->
+			<div class="main-content">
+				{% if post.excerpt %}
+					{{ post.excerpt }}
+				{% else %}
+					{{ post.content }}
+				{% endif %}
+			</div>
 			
 		{% elsif post.layout == 'article' %}
 		<article class="article">
-			<h2 class="capslock">{{ post.title }}</h2>
-			<time>{{ post.date | date: "%B %d, %Y" }}</time><span class="permalink"><a href="{{ post.url }}">∞</a></span>
-			{{ post.content }}
+			<header class="article-title">
+				<h2>{{ post.title }}</h2>
+				<div class="permalink">
+					<span>
+						<time>{{ post.date | date: "%B %d, %Y" }}</time>
+						<a href="{{ post.url }}">∞</a>
+					</span>
+				</div>
+			</header>
+			<div class="main-content">
+				{{ post.content }}
+			</div>
 			
 		{% elsif post.layout == 'quote' %}
 		<article class="quote">
@@ -24,8 +50,13 @@ title: Riggl.es
 			
 		{% elsif post.layout == 'chat' %}
 		<article class="chat">
-			<h3>{{ post.title }}</h3>
-				{{ post.content }}
+			<header class="chat-title">
+				<h3>{{ post.title }}</h3>
+				<span class="permalink">
+					<a href="{{ post.url }}">∞</a>
+				</span>
+			</header>
+			{{ post.content }}			
 		{% endif %}
 		</article>
 	{% endfor %}

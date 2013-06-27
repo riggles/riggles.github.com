@@ -5,9 +5,9 @@ tags: tech, Google
 layout: link
 ---
 
-It seems Google's WebM “open standard” video format is getting some unwanted attention; this time from the MPEG LA. From [The Verge][1] (emphasis added):
+It seems Google's WebM “open standard” video * format is getting some unwanted * attention; this * time from the MPEG LA. From [The Verge][1] (emphasis added):
 
-> When the WebM project was announced back in 2010, one (of) its selling points was that it was open and free of the licensing needs imposed by competitors like H.264. That may have been slightly overstated, however, as Google and MPEG LA have just entered into a licensing agreement covering the video codec at the heart of the format.
+> When the WebM project was announced back in 2010, one (of) its selling points was that it was open and free of the licensing needs imposed by competitors like H.264. _That may have been slightly overstated_, however, as Google and MPEG LA have just entered into a licensing agreement covering the video codec at the heart of the format.
 
 I think the words they were searching for are: *Totally bogus*.
 
